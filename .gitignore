@@ -1,0 +1,40 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Downloaded AI Models (auto-downloaded at runtime)
+*.task
+face_landmarker.task
+
+# Temporary Uploaded Videos / Media
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Streamlit Secrets & Local Config
+.streamlit/secrets.toml
+
+# Environment Variables
+.env
+.env.*
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
